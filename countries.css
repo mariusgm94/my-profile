@@ -1,0 +1,33 @@
+
+
+.countriess {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.countries {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 0px;
+	flex-basis: 200px;
+}
+
+.countries img {
+	width: 200px;
+	border-radius: 6px;
+}
+
+.countries h2 {
+	flex-grow: 1;
+	padding: 0px;
+	font-size: 24px; 
+}
+
+.countries p {
+	font-size: 14px;
+	text-align: justify;
+}

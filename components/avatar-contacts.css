@@ -1,0 +1,65 @@
+
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.avatar img {
+	width: 100px;
+	border-radius: 50px;
+}
+
+.avatar {
+	width: 370px;
+	flex-grow: 1;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #EDF4FF;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 10px;
+	margin-left: 0px;
+}
+
+.avatar h2 {
+	padding: 0px;
+	font-size: 24px; 
+}
+
+.avatar p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.contacts ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.contacts {
+	width:200px;
+	padding: 20px;
+	display: flex;
+	background-color: #EDF4FF;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 10px;
+	margin-right: 0px;
+}
+
+.contacts p {
+	font-size: 17px;
+	color: #37588D;
+}
+.contacts p {
+	transition: background-color 0.3s;
+  	cursor: pointer;
+}
+
+.contacts p:hover {
+  	background-color: #779BE4;
+  	color: white;
+}

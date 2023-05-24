@@ -1,8 +1,12 @@
-/* Colors and fonts */
-
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800&family=Reem+Kufi:wght@400;500;600;700&display=swap");
 
-/*body p 
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/countries.css");
+@import url("components/avatar-contacts.css");
+
+body p {
 	font-family:'Hanken Grotesk';
 	font-size: 15px;
 	text-align: justify;
@@ -13,114 +17,14 @@ h1 {
 	font-size: 80px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-}
 
+}
 h2 {font-family: 'Alata';
 	font-weight: 400;
 	font-size: 25px;
-}*/
+}
 
-
-
-body {
-	background-color: #F2F7FF;
-	color: #373737; 
-	font-family: 'Hanken Grotesk', sans-serif;
-	font-size: 16px;
+h3 {font-family: 'Alata';
 	font-weight: 400;
-	text-align: justify;
-}
-h1 {
-	color: #0055C6; 
-	font-family:'Reem Kufi', sans-serif;
-	font-size: 60px;
-	font-weight: 500;
-}
-h2 {
-	color: #002659; 
-	font-family: 'Alata', sans-serif;
-	font-size: 28px;
-	font-weight: 900;
-}
-a {
-color: #82B4F8; 
-	font-family: 'Hanken Grotesk', sans-serif;
 	font-size: 19px;
-	font-weight: 500;
 }
-a:hover {
-text-decoration: super bolder;
-color : black;
-}
-
-/* Custom design with class */
-
-.container {
-	width: 700px;
-	margin: 40px auto;
-}
-
-@media (max-width:760px) {
-	.container {
-	width: 600px;
-	}
-}
-
-@media (max-width:500px) {
-	.container {
-	width: 400px;
-	}
-}
-
-
-.card-white {
-	background-color: white;
-	padding: 40px;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-	border-radius: 6px;
-	margin: 20px 0px;
-	text-align: center;
-}
-.img-circle {
-	width: 200px;
-	border-radius: 100px;
-
-}
-.btn-blue {
-	font-style: none;
-	background-color: #5686C6;
-	color: white;
-	padding: 15px 20px;
-	border-radius: 6px;
-	text-decoration: none;
-}
-.btn-blue:hover {
-	background-color: #283E5B;
-	color: white;
-}
-.list-inline {
-	list-style: none;
-	padding-left: 0px;
-}
-.list-inline li {
-	display: inline;
-	margin-right: 10px;
-	margin-left:10px;
-}
-.list-inline i {
-	font-size: 50px;
-	color: #82B4F8;
-}
-.list-inline i:hover {
-	background-color: #283E5B;
-	color: white;
-}
-#intro p {
-	margin-bottom: 40px;
-}
-
-
-
-
-
-
